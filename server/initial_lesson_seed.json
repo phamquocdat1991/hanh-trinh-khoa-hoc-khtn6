@@ -1,0 +1,1342 @@
+{
+  "id": "khtn6-do-chieu-dai",
+  "title": "Bài 4: Đo chiều dài — Khoa học tự nhiên 6",
+  "subject": "Khoa học tự nhiên",
+  "grade": "Khối 6",
+  "description": "Bài học tương tác gồm 5 chặng, 15 câu hỏi khám phá đơn vị, dụng cụ, cách đặt thước - mắt và giải quyết tình huống đo đạc thực tế.",
+  "status": "published",
+  "createdAt": "2026-09-28T14:12:56.014Z",
+  "updatedAt": "2026-09-28T14:12:56.015Z",
+  "published": {
+    "versionId": "khtn6-v1.0.0",
+    "versionName": "Phiên bản 1.0 (Chính thức)",
+    "createdAt": "2026-09-28T14:12:56.015Z",
+    "stages": [
+      {
+        "id": 1,
+        "number": 1,
+        "title": "Khu rừng đơn vị đo",
+        "shortTitle": "Rừng đơn vị đo",
+        "badge": "🌿 Chặng 1",
+        "description": "Băng qua khu rừng kỳ ảo, tìm hiểu các đơn vị đo chiều dài quốc tế và quy tắc đổi đơn vị.",
+        "objective": "Nhận biết các đơn vị đo mm, cm, m, km và chọn đơn vị phù hợp với từng đối tượng đo.",
+        "image": "/assets/4.jpg",
+        "scoreReward": 30
+      },
+      {
+        "id": 2,
+        "number": 2,
+        "title": "Công trường thước đo",
+        "shortTitle": "Công trường thước đo",
+        "badge": "🏗️ Chặng 2",
+        "description": "Cùng các kỹ sư tại công trường xây dựng khám phá các loại thước và cách chọn thước đo tối ưu.",
+        "objective": "Chọn dụng cụ đo thích hợp, xác định GHĐ, ĐCNN và đặt vạch số 0 trùng đầu vật.",
+        "image": "/assets/1.jpg",
+        "scoreReward": 30
+      },
+      {
+        "id": 3,
+        "number": 3,
+        "title": "Phòng thí nghiệm sai số",
+        "shortTitle": "Phòng thí nghiệm sai số",
+        "badge": "🔬 Chặng 3",
+        "description": "Tìm hiểu cách đặt thước, đặt mắt nhìn vuông góc và đọc kết quả đo chính xác.",
+        "objective": "Nhận biết cách đặt thước dọc theo vật, đặt mắt vuông góc và đọc kết quả đo theo vạch chia.",
+        "image": "/assets/2.jpg",
+        "scoreReward": 30
+      },
+      {
+        "id": 4,
+        "number": 4,
+        "title": "Trạm vận dụng vũ trụ",
+        "shortTitle": "Trạm vận dụng",
+        "badge": "🚀 Chặng 4",
+        "description": "Vận dụng kỹ năng đổi đơn vị và giải quyết các tình huống đo đạc thực tế phức tạp.",
+        "objective": "Quy đổi thành thạo các đơn vị đo chiều dài và giải quyết tình huống đo lệch vạch số 0 hoặc vật siêu mỏng.",
+        "image": "/assets/stage4_rocket.jpg",
+        "scoreReward": 30
+      },
+      {
+        "id": 5,
+        "number": 5,
+        "title": "Kho báu nhà khoa học",
+        "shortTitle": "Kho báu vương miện",
+        "badge": "👑 Chặng 5",
+        "description": "Chinh phục bài khảo sát tổng kết, mở khóa rương kho báu hoàng gia và nhận Cây Thước Vàng Danh Dự!",
+        "objective": "Vận dụng tổng hợp 5 bước đo, quy ước ghi kết quả theo ĐCNN để mở khóa rương kho báu.",
+        "image": "/assets/3.jpg",
+        "scoreReward": 30
+      }
+    ],
+    "questions": [
+      {
+        "id": "CH1-Q1",
+        "stageId": 1,
+        "questionNumber": 1,
+        "content": "Đơn vị đo độ dài hợp pháp trong hệ thống đo lường chính thức (hệ SI) của nước ta là gì?",
+        "interactionType": "multiple-choice",
+        "options": [
+          {
+            "key": "A",
+            "text": "Milimét (ký hiệu là mm)"
+          },
+          {
+            "key": "B",
+            "text": "Centimét (ký hiệu là cm)"
+          },
+          {
+            "key": "C",
+            "text": "Mét (ký hiệu là m)"
+          },
+          {
+            "key": "D",
+            "text": "Kilômét (ký hiệu là km)"
+          }
+        ],
+        "correctAnswer": "C",
+        "hint": "Đây là đơn vị đo độ dài cơ bản nhất, dùng làm chuẩn để suy ra các ước số và bội số như cm, mm, km.",
+        "explanation": "Theo Nghị định đo lường của nước ta và hệ thống chuẩn quốc tế SI, đơn vị đo độ dài cơ bản, hợp pháp là Mét (m).",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH1-Q2",
+        "stageId": 1,
+        "questionNumber": 2,
+        "content": "Em hãy kéo thả đơn vị đo thích hợp vào từng đối tượng đo chiều dài dưới đây:",
+        "interactionType": "drag-drop",
+        "dragItems": [
+          {
+            "id": "unit-mm",
+            "text": "Milimét (mm)",
+            "icon": "📏"
+          },
+          {
+            "id": "unit-cm",
+            "text": "Centimét (cm)",
+            "icon": "✏️"
+          },
+          {
+            "id": "unit-m",
+            "text": "Mét (m)",
+            "icon": "⚽"
+          },
+          {
+            "id": "unit-km",
+            "text": "Kilômét (km)",
+            "icon": "🚗"
+          }
+        ],
+        "dropTargets": [
+          {
+            "id": "target-coin",
+            "label": "Bề dày của một chiếc đồng xu",
+            "acceptedItemId": "unit-mm"
+          },
+          {
+            "id": "target-pen",
+            "label": "Chiều dài của chiếc bút chì",
+            "acceptedItemId": "unit-cm"
+          },
+          {
+            "id": "target-pitch",
+            "label": "Chiều dài của sân bóng đá",
+            "acceptedItemId": "unit-m"
+          },
+          {
+            "id": "target-distance",
+            "label": "Khoảng cách giữa Hà Nội và Hải Phòng",
+            "acceptedItemId": "unit-km"
+          }
+        ],
+        "hint": "Vật siêu mỏng dùng mm; đồ dùng học tập dùng cm; công trình/sân bãi dùng m; đường liên tỉnh dùng km.",
+        "explanation": "Việc chọn đơn vị phù hợp giúp số đo gọn gàng, tránh sai số và thuận tiện trong tính toán thực tế.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH1-Q3",
+        "stageId": 1,
+        "questionNumber": 3,
+        "content": "Một dải ruy băng trong rừng cổ thụ dài 1,5 mét (m). Độ dài này tương ứng với bao nhiêu centimét (cm)?",
+        "interactionType": "multiple-choice",
+        "options": [
+          {
+            "key": "A",
+            "text": "15 cm"
+          },
+          {
+            "key": "B",
+            "text": "150 cm"
+          },
+          {
+            "key": "C",
+            "text": "1 500 cm"
+          },
+          {
+            "key": "D",
+            "text": "0,15 cm"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Ghi nhớ mối liên hệ: 1 m = 100 cm. Hãy nhân 1,5 với 100 nhé!",
+        "explanation": "Vì 1 m = 100 cm, nên 1,5 m = 1,5 × 100 = 150 cm.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH2-Q1",
+        "stageId": 2,
+        "questionNumber": 1,
+        "content": "Tại công trường xây dựng, các kỹ sư cần đo chu vi của một cột trụ bê tông hình tròn. Dụng cụ nào dưới đây là phù hợp và tiện lợi nhất?",
+        "interactionType": "multiple-choice",
+        "options": [
+          {
+            "key": "A",
+            "text": "Thước kẻ nhựa thẳng 30 cm"
+          },
+          {
+            "key": "B",
+            "text": "Thước dây (thước cuộn bằng vải mềm)"
+          },
+          {
+            "key": "C",
+            "text": "Thước kẹp kim loại cơ khí"
+          },
+          {
+            "key": "D",
+            "text": "Thước đo góc"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Cột trụ có bề mặt cong tròn. Ta cần loại thước có thể uốn lượn ôm sát chu vi của cột.",
+        "explanation": "Thước dây bằng vải hoặc nhựa dẻo có khả năng uốn cong ôm quanh vật thể hình trụ, giúp đo chu vi dễ dàng và chuẩn xác.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH2-Q2",
+        "stageId": 2,
+        "questionNumber": 2,
+        "content": "Quan sát cây thước kỹ thuật được dựng chính xác bên dưới. Hãy xác định Giới hạn đo (GHĐ) và Độ chia nhỏ nhất (ĐCNN) của cây thước:",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-ghd-dcnn",
+          "rulerLengthCm": 10,
+          "dcnnMm": 1
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "GHĐ: 10 cm ; ĐCNN: 1 cm"
+          },
+          {
+            "key": "B",
+            "text": "GHĐ: 10 cm ; ĐCNN: 1 mm (0,1 cm)"
+          },
+          {
+            "key": "C",
+            "text": "GHĐ: 0 cm ; ĐCNN: 1 mm"
+          },
+          {
+            "key": "D",
+            "text": "GHĐ: 10 mm ; ĐCNN: 1 cm"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "GHĐ là số đo lớn nhất ghi trên thước. ĐCNN là độ dài giữa 2 vạch chia liên tiếp kề nhau (giữa 0 và 1 cm có 10 khoảng nhỏ).",
+        "explanation": "Số lớn nhất trên thước là 10 cm (GHĐ = 10 cm). Giữa mỗi cm được chia làm 10 khoảng bằng nhau, mỗi khoảng là 1 mm hay 0,1 cm (ĐCNN = 1 mm).",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH2-Q3",
+        "stageId": 2,
+        "questionNumber": 3,
+        "content": "Khi đặt thước đo chiều dài một thanh gỗ, vị trí vạch số 0 của thước phải được đặt như thế nào để kết quả đo không bị sai lệch?",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-measure-zero",
+          "rulerLengthCm": 10,
+          "objectStartCm": 0,
+          "objectEndCm": 6.5,
+          "objectName": "Thanh gỗ mẫu"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "Đặt mép đầu ngoài cùng của cây thước trùng với đầu thanh gỗ (không cần quan tâm vạch số 0)"
+          },
+          {
+            "key": "B",
+            "text": "Đặt vạch số 0 của thước trùng khít với một đầu của thanh gỗ"
+          },
+          {
+            "key": "C",
+            "text": "Đặt vạch số 1 của thước trùng với đầu thanh gỗ rồi đọc số ở đầu kia"
+          },
+          {
+            "key": "D",
+            "text": "Đặt thanh gỗ lọt vào giữa thước để dễ nhìn hai đầu"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Khoảng cách từ mép thước đến vạch số 0 thường có một khoảng đệm an toàn. Đo độ dài phải lấy mốc bắt đầu từ vạch số 0.",
+        "explanation": "Quy tắc chuẩn: Phải đặt vạch số 0 của thước trùng với một đầu của vật cần đo, thân thước đặt dọc theo chiều dài của vật.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH3-Q1",
+        "stageId": 3,
+        "questionNumber": 1,
+        "content": "Quan sát sơ đồ phòng thí nghiệm dưới đây. Để tránh hiện tượng sai số thị sai (parallax error), nhà khoa học nhí phải đặt mắt theo hướng nào?",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-eye-direction",
+          "rulerLengthCm": 8,
+          "objectStartCm": 0,
+          "objectEndCm": 5
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "Hướng mắt A (nhìn nghiêng sang trái 45°)"
+          },
+          {
+            "key": "B",
+            "text": "Hướng mắt B (nhìn vuông góc với cạnh thước tại đầu kia của vật)"
+          },
+          {
+            "key": "C",
+            "text": "Hướng mắt C (nhìn nghiêng sang phải 45°)"
+          },
+          {
+            "key": "D",
+            "text": "Nhìn theo hướng A hay C đều như nhau"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Nhìn nghiêng sẽ khiến vạch đo bị lệch về phía đối diện. Cần đặt tia nhìn thẳng góc 90° so với mặt thước.",
+        "explanation": "Theo quy tắc đo lường, mắt phải đặt nhìn theo hướng vuông góc với cạnh thước tại đầu kia của vật để đọc giá trị vạch chia chuẩn xác nhất.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH3-Q2",
+        "stageId": 3,
+        "questionNumber": 2,
+        "content": "Đầu một khối kim loại chuẩn trùng vạch 0 cm, đầu kia nằm ở vạch chia như hình vẽ SVG chính xác bên dưới. Thước có ĐCNN 1 mm. Hãy đọc kết quả đo:",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-measure-zero",
+          "rulerLengthCm": 8,
+          "dcnnMm": 1,
+          "objectStartCm": 0,
+          "objectEndCm": 4.6,
+          "objectName": "Khối kim loại chuẩn"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "4,5 cm"
+          },
+          {
+            "key": "B",
+            "text": "4,6 cm"
+          },
+          {
+            "key": "C",
+            "text": "4,7 cm"
+          },
+          {
+            "key": "D",
+            "text": "5,0 cm"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Đầu mút của khối kim loại vượt qua số 4 cm thêm 6 vạch nhỏ (mỗi vạch 1 mm = 0,1 cm).",
+        "explanation": "Kết quả đo = 4 cm + 6 mm = 4,6 cm (hoặc 46 mm). Đọc theo vạch chia gần nhất với đầu kia của vật.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH3-Q3",
+        "stageId": 3,
+        "questionNumber": 3,
+        "content": "Em hãy kéo thả từng thao tác đo độ dài vào đúng nhóm [THAO TÁC ĐÚNG] hoặc [THAO TÁC SAI]:",
+        "interactionType": "drag-drop",
+        "dragItems": [
+          {
+            "id": "op-doc",
+            "text": "Đặt thước dọc theo chiều dài vật cần đo",
+            "icon": "✅"
+          },
+          {
+            "id": "op-vach0",
+            "text": "Đặt vạch 0 của thước trùng một đầu của vật",
+            "icon": "🎯"
+          },
+          {
+            "id": "op-nghieng",
+            "text": "Đặt mắt nhìn nghiêng để số đo to hơn",
+            "icon": "❌"
+          },
+          {
+            "id": "op-uocluong",
+            "text": "Ghi kết quả ước lượng không theo ĐCNN",
+            "icon": "⚠️"
+          }
+        ],
+        "dropTargets": [
+          {
+            "id": "target-correct-1",
+            "label": "Thao tác đúng số 1",
+            "acceptedItemId": "op-doc"
+          },
+          {
+            "id": "target-correct-2",
+            "label": "Thao tác đúng số 2",
+            "acceptedItemId": "op-vach0"
+          },
+          {
+            "id": "target-wrong-1",
+            "label": "Thao tác sai số 1",
+            "acceptedItemId": "op-nghieng"
+          },
+          {
+            "id": "target-wrong-2",
+            "label": "Thao tác sai số 2",
+            "acceptedItemId": "op-uocluong"
+          }
+        ],
+        "hint": "Đặt thước thẳng dọc theo vật và vạch 0 trùng đầu là ĐÚNG. Nhìn nghiêng và ghi bừa không theo ĐCNN là SAI.",
+        "explanation": "Tuân thủ các thao tác đo chuẩn giúp triệt tiêu sai số chủ quan do người thực hiện gây ra.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH4-Q1",
+        "stageId": 4,
+        "questionNumber": 1,
+        "content": "Ghép nối các giá trị chiều dài ở cột bên trái với giá trị chuyển đổi tương đương ở cột bên phải:",
+        "interactionType": "drag-drop",
+        "dragItems": [
+          {
+            "id": "val-250cm",
+            "text": "250 cm",
+            "icon": "📏"
+          },
+          {
+            "id": "val-45cm",
+            "text": "4,5 cm",
+            "icon": "📐"
+          },
+          {
+            "id": "val-1200m",
+            "text": "1 200 m",
+            "icon": "🚀"
+          },
+          {
+            "id": "val-35m",
+            "text": "3,5 m",
+            "icon": "🛰️"
+          }
+        ],
+        "dropTargets": [
+          {
+            "id": "target-25m",
+            "label": "Giá trị tương đương của 2,5 m",
+            "acceptedItemId": "val-250cm"
+          },
+          {
+            "id": "target-45mm",
+            "label": "Giá trị tương đương của 45 mm",
+            "acceptedItemId": "val-45cm"
+          },
+          {
+            "id": "target-12km",
+            "label": "Giá trị tương đương của 1,2 km",
+            "acceptedItemId": "val-1200m"
+          },
+          {
+            "id": "target-35dm",
+            "label": "Giá trị tương đương của 35 dm",
+            "acceptedItemId": "val-35m"
+          }
+        ],
+        "hint": "2,5 m = 2,5 × 100 cm; 45 mm = 45 : 10 cm; 1,2 km = 1,2 × 1000 m; 35 dm = 35 : 10 m.",
+        "explanation": "Quy đổi: 2,5 m = 250 cm ; 45 mm = 4,5 cm ; 1,2 km = 1.200 m ; 35 dm = 3,5 m.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH4-Q2",
+        "stageId": 4,
+        "questionNumber": 2,
+        "content": "Một thanh nhiên liệu tên lửa bị đặt lệch: đầu trái nằm ở vạch 2,0 cm, đầu phải nằm ở vạch 7,4 cm trên thước (ĐCNN 1 mm). Chiều dài thực tế của thanh là bao nhiêu?",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-measure-offset",
+          "rulerLengthCm": 10,
+          "dcnnMm": 1,
+          "objectStartCm": 2,
+          "objectEndCm": 7.4,
+          "objectName": "Thanh nhiên liệu tên lửa"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "7,4 cm"
+          },
+          {
+            "key": "B",
+            "text": "5,4 cm"
+          },
+          {
+            "key": "C",
+            "text": "9,4 cm"
+          },
+          {
+            "key": "D",
+            "text": "5,0 cm"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Khi đầu vật không bắt đầu từ số 0, chiều dài = (Số đo ở đầu cuối) - (Số đo ở đầu đầu).",
+        "explanation": "Chiều dài thực tế = 7,4 cm - 2,0 cm = 5,4 cm. Đây là kỹ năng đo khi đầu thước bị sứt mẻ hoặc vật bị đặt lệch.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH4-Q3",
+        "stageId": 4,
+        "questionNumber": 3,
+        "content": "Tình huống thực tế: Để đo bề dày của 1 tờ giấy trong cuốn sách KHTN 6 (bề dày quá mỏng, nhỏ hơn 0,1 mm và không thể đo trực tiếp bằng thước kẻ thông thường), cách làm nào thông minh và chính xác nhất?",
+        "interactionType": "multiple-choice",
+        "options": [
+          {
+            "key": "A",
+            "text": "Dùng kính lúp soi rồi ước lượng phỏng đoán bằng mắt"
+          },
+          {
+            "key": "B",
+            "text": "Đo bề dày của một tập gồm 100 trang sách (không kể bìa) rồi lấy kết quả chia cho 100"
+          },
+          {
+            "key": "C",
+            "text": "Dùng thước dây cuộn tròn tờ giấy lại rồi đo đường kính"
+          },
+          {
+            "key": "D",
+            "text": "Đặt chồng 10 chiếc thước kẻ lên tờ giấy rồi trừ đi"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Phương pháp đo gián tiếp bội số: Đo kích thước của N vật thể giống hệt nhau rồi chia đều cho N.",
+        "explanation": "Phương pháp chia trung bình tập hợp: Lấy độ dày của 100 trang sách chia cho 100 sẽ cho kết quả bề dày của 1 trang với độ chính xác cao vượt bậc so với đo trực tiếp.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH5-Q1",
+        "stageId": 5,
+        "questionNumber": 1,
+        "content": "Một học sinh dùng thước có ĐCNN là 0,1 cm để đo chiều rộng cuốn sổ tay khoa học. Trong các cách ghi kết quả dưới đây, cách nào là đúng quy ước khoa học?",
+        "interactionType": "multiple-choice",
+        "options": [
+          {
+            "key": "A",
+            "text": "18,5 cm"
+          },
+          {
+            "key": "B",
+            "text": "18,53 cm"
+          },
+          {
+            "key": "C",
+            "text": "18,534 cm"
+          },
+          {
+            "key": "D",
+            "text": "18 cm"
+          }
+        ],
+        "correctAnswer": "A",
+        "hint": "Quy tắc ghi kết quả: Chữ số thập phân cuối cùng phải cùng hàng với Độ chia nhỏ nhất của thước (ở đây ĐCNN là 0,1 cm - có 1 chữ số thập phân).",
+        "explanation": "Khi ĐCNN là 0,1 cm, kết quả đo bắt buộc phải được ghi đến hàng thập phân thứ nhất (0,1 cm). Do đó 18,5 cm là cách ghi đúng chuẩn.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH5-Q2",
+        "stageId": 5,
+        "questionNumber": 2,
+        "content": "Em hãy sắp xếp đúng thứ tự quy trình 5 bước đo chiều dài tiêu chuẩn của một nhà khoa học:",
+        "interactionType": "drag-drop",
+        "dragItems": [
+          {
+            "id": "step-est",
+            "text": "Ước lượng chiều dài cần đo",
+            "icon": "1️⃣"
+          },
+          {
+            "id": "step-choose",
+            "text": "Chọn thước có GHĐ và ĐCNN phù hợp",
+            "icon": "2️⃣"
+          },
+          {
+            "id": "step-place",
+            "text": "Đặt thước dọc theo chiều dài, vạch 0 trùng 1 đầu",
+            "icon": "3️⃣"
+          },
+          {
+            "id": "step-eye",
+            "text": "Đặt mắt nhìn vuông góc với cạnh thước tại đầu kia",
+            "icon": "4️⃣"
+          },
+          {
+            "id": "step-read",
+            "text": "Đọc và ghi kết quả theo vạch chia gần nhất",
+            "icon": "5️⃣"
+          }
+        ],
+        "dropTargets": [
+          {
+            "id": "target-step-1",
+            "label": "Bước 1",
+            "acceptedItemId": "step-est"
+          },
+          {
+            "id": "target-step-2",
+            "label": "Bước 2",
+            "acceptedItemId": "step-choose"
+          },
+          {
+            "id": "target-step-3",
+            "label": "Bước 3",
+            "acceptedItemId": "step-place"
+          },
+          {
+            "id": "target-step-4",
+            "label": "Bước 4",
+            "acceptedItemId": "step-eye"
+          },
+          {
+            "id": "target-step-5",
+            "label": "Bước 5",
+            "acceptedItemId": "step-read"
+          }
+        ],
+        "hint": "Trình tự: Ước lượng -> Chọn thước -> Đặt thước -> Đặt mắt -> Đọc và ghi kết quả.",
+        "explanation": "Đây là quy trình chuẩn 5 bước đo chiều dài trong chương trình KHTN 6 giúp mọi phép đo đạt độ chính xác tối ưu.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH5-Q3",
+        "stageId": 5,
+        "questionNumber": 3,
+        "content": "CÂU ĐỐ KHO BÁU: Để mở khóa chiếc rương chứa Cây Thước Vàng, hãy dùng cây thước kỹ thuật SVG bên dưới đo chính xác chiều dài chiếc chìa khóa vàng bí mật:",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-golden-key",
+          "rulerLengthCm": 10,
+          "dcnnMm": 1,
+          "objectStartCm": 0,
+          "objectEndCm": 8.5,
+          "objectName": "Chìa khóa vàng bí mật"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "8,0 cm (80 mm)"
+          },
+          {
+            "key": "B",
+            "text": "8,5 cm (85 mm)"
+          },
+          {
+            "key": "C",
+            "text": "9,0 cm (90 mm)"
+          },
+          {
+            "key": "D",
+            "text": "8,2 cm (82 mm)"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Mũi chìa khóa đặt tại vạch số 0, cán chìa khóa chạm chính xác vào vạch 8,5 cm (vạch chia giữa số 8 và 9).",
+        "explanation": "Chúc mừng nhà khoa học nhí! Chiều dài chìa khóa chính xác là 8,5 cm (85 mm), rương báu mở ra mang theo Cây Thước Vàng Danh Dự!",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      }
+    ]
+  },
+  "draft": {
+    "versionId": "khtn6-v1.1.0-draft",
+    "versionName": "Bản thảo 1.1 (Đang chỉnh sửa)",
+    "createdAt": "2026-09-28T14:12:56.015Z",
+    "stages": [
+      {
+        "id": 1,
+        "number": 1,
+        "title": "Khu rừng đơn vị đo",
+        "shortTitle": "Rừng đơn vị đo",
+        "badge": "🌿 Chặng 1",
+        "description": "Băng qua khu rừng kỳ ảo, tìm hiểu các đơn vị đo chiều dài quốc tế và quy tắc đổi đơn vị.",
+        "objective": "Nhận biết các đơn vị đo mm, cm, m, km và chọn đơn vị phù hợp với từng đối tượng đo.",
+        "image": "/assets/4.jpg",
+        "scoreReward": 30
+      },
+      {
+        "id": 2,
+        "number": 2,
+        "title": "Công trường thước đo",
+        "shortTitle": "Công trường thước đo",
+        "badge": "🏗️ Chặng 2",
+        "description": "Cùng các kỹ sư tại công trường xây dựng khám phá các loại thước và cách chọn thước đo tối ưu.",
+        "objective": "Chọn dụng cụ đo thích hợp, xác định GHĐ, ĐCNN và đặt vạch số 0 trùng đầu vật.",
+        "image": "/assets/1.jpg",
+        "scoreReward": 30
+      },
+      {
+        "id": 3,
+        "number": 3,
+        "title": "Phòng thí nghiệm sai số",
+        "shortTitle": "Phòng thí nghiệm sai số",
+        "badge": "🔬 Chặng 3",
+        "description": "Tìm hiểu cách đặt thước, đặt mắt nhìn vuông góc và đọc kết quả đo chính xác.",
+        "objective": "Nhận biết cách đặt thước dọc theo vật, đặt mắt vuông góc và đọc kết quả đo theo vạch chia.",
+        "image": "/assets/2.jpg",
+        "scoreReward": 30
+      },
+      {
+        "id": 4,
+        "number": 4,
+        "title": "Trạm vận dụng vũ trụ",
+        "shortTitle": "Trạm vận dụng",
+        "badge": "🚀 Chặng 4",
+        "description": "Vận dụng kỹ năng đổi đơn vị và giải quyết các tình huống đo đạc thực tế phức tạp.",
+        "objective": "Quy đổi thành thạo các đơn vị đo chiều dài và giải quyết tình huống đo lệch vạch số 0 hoặc vật siêu mỏng.",
+        "image": "/assets/stage4_rocket.jpg",
+        "scoreReward": 30
+      },
+      {
+        "id": 5,
+        "number": 5,
+        "title": "Kho báu nhà khoa học",
+        "shortTitle": "Kho báu vương miện",
+        "badge": "👑 Chặng 5",
+        "description": "Chinh phục bài khảo sát tổng kết, mở khóa rương kho báu hoàng gia và nhận Cây Thước Vàng Danh Dự!",
+        "objective": "Vận dụng tổng hợp 5 bước đo, quy ước ghi kết quả theo ĐCNN để mở khóa rương kho báu.",
+        "image": "/assets/3.jpg",
+        "scoreReward": 30
+      }
+    ],
+    "questions": [
+      {
+        "id": "CH1-Q1",
+        "stageId": 1,
+        "questionNumber": 1,
+        "content": "Đơn vị đo độ dài hợp pháp trong hệ thống đo lường chính thức (hệ SI) của nước ta là gì?",
+        "interactionType": "multiple-choice",
+        "options": [
+          {
+            "key": "A",
+            "text": "Milimét (ký hiệu là mm)"
+          },
+          {
+            "key": "B",
+            "text": "Centimét (ký hiệu là cm)"
+          },
+          {
+            "key": "C",
+            "text": "Mét (ký hiệu là m)"
+          },
+          {
+            "key": "D",
+            "text": "Kilômét (ký hiệu là km)"
+          }
+        ],
+        "correctAnswer": "C",
+        "hint": "Đây là đơn vị đo độ dài cơ bản nhất, dùng làm chuẩn để suy ra các ước số và bội số như cm, mm, km.",
+        "explanation": "Theo Nghị định đo lường của nước ta và hệ thống chuẩn quốc tế SI, đơn vị đo độ dài cơ bản, hợp pháp là Mét (m).",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH1-Q2",
+        "stageId": 1,
+        "questionNumber": 2,
+        "content": "Em hãy kéo thả đơn vị đo thích hợp vào từng đối tượng đo chiều dài dưới đây:",
+        "interactionType": "drag-drop",
+        "dragItems": [
+          {
+            "id": "unit-mm",
+            "text": "Milimét (mm)",
+            "icon": "📏"
+          },
+          {
+            "id": "unit-cm",
+            "text": "Centimét (cm)",
+            "icon": "✏️"
+          },
+          {
+            "id": "unit-m",
+            "text": "Mét (m)",
+            "icon": "⚽"
+          },
+          {
+            "id": "unit-km",
+            "text": "Kilômét (km)",
+            "icon": "🚗"
+          }
+        ],
+        "dropTargets": [
+          {
+            "id": "target-coin",
+            "label": "Bề dày của một chiếc đồng xu",
+            "acceptedItemId": "unit-mm"
+          },
+          {
+            "id": "target-pen",
+            "label": "Chiều dài của chiếc bút chì",
+            "acceptedItemId": "unit-cm"
+          },
+          {
+            "id": "target-pitch",
+            "label": "Chiều dài của sân bóng đá",
+            "acceptedItemId": "unit-m"
+          },
+          {
+            "id": "target-distance",
+            "label": "Khoảng cách giữa Hà Nội và Hải Phòng",
+            "acceptedItemId": "unit-km"
+          }
+        ],
+        "hint": "Vật siêu mỏng dùng mm; đồ dùng học tập dùng cm; công trình/sân bãi dùng m; đường liên tỉnh dùng km.",
+        "explanation": "Việc chọn đơn vị phù hợp giúp số đo gọn gàng, tránh sai số và thuận tiện trong tính toán thực tế.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH1-Q3",
+        "stageId": 1,
+        "questionNumber": 3,
+        "content": "Một dải ruy băng trong rừng cổ thụ dài 1,5 mét (m). Độ dài này tương ứng với bao nhiêu centimét (cm)?",
+        "interactionType": "multiple-choice",
+        "options": [
+          {
+            "key": "A",
+            "text": "15 cm"
+          },
+          {
+            "key": "B",
+            "text": "150 cm"
+          },
+          {
+            "key": "C",
+            "text": "1 500 cm"
+          },
+          {
+            "key": "D",
+            "text": "0,15 cm"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Ghi nhớ mối liên hệ: 1 m = 100 cm. Hãy nhân 1,5 với 100 nhé!",
+        "explanation": "Vì 1 m = 100 cm, nên 1,5 m = 1,5 × 100 = 150 cm.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH2-Q1",
+        "stageId": 2,
+        "questionNumber": 1,
+        "content": "Tại công trường xây dựng, các kỹ sư cần đo chu vi của một cột trụ bê tông hình tròn. Dụng cụ nào dưới đây là phù hợp và tiện lợi nhất?",
+        "interactionType": "multiple-choice",
+        "options": [
+          {
+            "key": "A",
+            "text": "Thước kẻ nhựa thẳng 30 cm"
+          },
+          {
+            "key": "B",
+            "text": "Thước dây (thước cuộn bằng vải mềm)"
+          },
+          {
+            "key": "C",
+            "text": "Thước kẹp kim loại cơ khí"
+          },
+          {
+            "key": "D",
+            "text": "Thước đo góc"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Cột trụ có bề mặt cong tròn. Ta cần loại thước có thể uốn lượn ôm sát chu vi của cột.",
+        "explanation": "Thước dây bằng vải hoặc nhựa dẻo có khả năng uốn cong ôm quanh vật thể hình trụ, giúp đo chu vi dễ dàng và chuẩn xác.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH2-Q2",
+        "stageId": 2,
+        "questionNumber": 2,
+        "content": "Quan sát cây thước kỹ thuật được dựng chính xác bên dưới. Hãy xác định Giới hạn đo (GHĐ) và Độ chia nhỏ nhất (ĐCNN) của cây thước:",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-ghd-dcnn",
+          "rulerLengthCm": 10,
+          "dcnnMm": 1
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "GHĐ: 10 cm ; ĐCNN: 1 cm"
+          },
+          {
+            "key": "B",
+            "text": "GHĐ: 10 cm ; ĐCNN: 1 mm (0,1 cm)"
+          },
+          {
+            "key": "C",
+            "text": "GHĐ: 0 cm ; ĐCNN: 1 mm"
+          },
+          {
+            "key": "D",
+            "text": "GHĐ: 10 mm ; ĐCNN: 1 cm"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "GHĐ là số đo lớn nhất ghi trên thước. ĐCNN là độ dài giữa 2 vạch chia liên tiếp kề nhau (giữa 0 và 1 cm có 10 khoảng nhỏ).",
+        "explanation": "Số lớn nhất trên thước là 10 cm (GHĐ = 10 cm). Giữa mỗi cm được chia làm 10 khoảng bằng nhau, mỗi khoảng là 1 mm hay 0,1 cm (ĐCNN = 1 mm).",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH2-Q3",
+        "stageId": 2,
+        "questionNumber": 3,
+        "content": "Khi đặt thước đo chiều dài một thanh gỗ, vị trí vạch số 0 của thước phải được đặt như thế nào để kết quả đo không bị sai lệch?",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-measure-zero",
+          "rulerLengthCm": 10,
+          "objectStartCm": 0,
+          "objectEndCm": 6.5,
+          "objectName": "Thanh gỗ mẫu"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "Đặt mép đầu ngoài cùng của cây thước trùng với đầu thanh gỗ (không cần quan tâm vạch số 0)"
+          },
+          {
+            "key": "B",
+            "text": "Đặt vạch số 0 của thước trùng khít với một đầu của thanh gỗ"
+          },
+          {
+            "key": "C",
+            "text": "Đặt vạch số 1 của thước trùng với đầu thanh gỗ rồi đọc số ở đầu kia"
+          },
+          {
+            "key": "D",
+            "text": "Đặt thanh gỗ lọt vào giữa thước để dễ nhìn hai đầu"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Khoảng cách từ mép thước đến vạch số 0 thường có một khoảng đệm an toàn. Đo độ dài phải lấy mốc bắt đầu từ vạch số 0.",
+        "explanation": "Quy tắc chuẩn: Phải đặt vạch số 0 của thước trùng với một đầu của vật cần đo, thân thước đặt dọc theo chiều dài của vật.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH3-Q1",
+        "stageId": 3,
+        "questionNumber": 1,
+        "content": "Quan sát sơ đồ phòng thí nghiệm dưới đây. Để tránh hiện tượng sai số thị sai (parallax error), nhà khoa học nhí phải đặt mắt theo hướng nào?",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-eye-direction",
+          "rulerLengthCm": 8,
+          "objectStartCm": 0,
+          "objectEndCm": 5
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "Hướng mắt A (nhìn nghiêng sang trái 45°)"
+          },
+          {
+            "key": "B",
+            "text": "Hướng mắt B (nhìn vuông góc với cạnh thước tại đầu kia của vật)"
+          },
+          {
+            "key": "C",
+            "text": "Hướng mắt C (nhìn nghiêng sang phải 45°)"
+          },
+          {
+            "key": "D",
+            "text": "Nhìn theo hướng A hay C đều như nhau"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Nhìn nghiêng sẽ khiến vạch đo bị lệch về phía đối diện. Cần đặt tia nhìn thẳng góc 90° so với mặt thước.",
+        "explanation": "Theo quy tắc đo lường, mắt phải đặt nhìn theo hướng vuông góc với cạnh thước tại đầu kia của vật để đọc giá trị vạch chia chuẩn xác nhất.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH3-Q2",
+        "stageId": 3,
+        "questionNumber": 2,
+        "content": "Đầu một khối kim loại chuẩn trùng vạch 0 cm, đầu kia nằm ở vạch chia như hình vẽ SVG chính xác bên dưới. Thước có ĐCNN 1 mm. Hãy đọc kết quả đo:",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-measure-zero",
+          "rulerLengthCm": 8,
+          "dcnnMm": 1,
+          "objectStartCm": 0,
+          "objectEndCm": 4.6,
+          "objectName": "Khối kim loại chuẩn"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "4,5 cm"
+          },
+          {
+            "key": "B",
+            "text": "4,6 cm"
+          },
+          {
+            "key": "C",
+            "text": "4,7 cm"
+          },
+          {
+            "key": "D",
+            "text": "5,0 cm"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Đầu mút của khối kim loại vượt qua số 4 cm thêm 6 vạch nhỏ (mỗi vạch 1 mm = 0,1 cm).",
+        "explanation": "Kết quả đo = 4 cm + 6 mm = 4,6 cm (hoặc 46 mm). Đọc theo vạch chia gần nhất với đầu kia của vật.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH3-Q3",
+        "stageId": 3,
+        "questionNumber": 3,
+        "content": "Em hãy kéo thả từng thao tác đo độ dài vào đúng nhóm [THAO TÁC ĐÚNG] hoặc [THAO TÁC SAI]:",
+        "interactionType": "drag-drop",
+        "dragItems": [
+          {
+            "id": "op-doc",
+            "text": "Đặt thước dọc theo chiều dài vật cần đo",
+            "icon": "✅"
+          },
+          {
+            "id": "op-vach0",
+            "text": "Đặt vạch 0 của thước trùng một đầu của vật",
+            "icon": "🎯"
+          },
+          {
+            "id": "op-nghieng",
+            "text": "Đặt mắt nhìn nghiêng để số đo to hơn",
+            "icon": "❌"
+          },
+          {
+            "id": "op-uocluong",
+            "text": "Ghi kết quả ước lượng không theo ĐCNN",
+            "icon": "⚠️"
+          }
+        ],
+        "dropTargets": [
+          {
+            "id": "target-correct-1",
+            "label": "Thao tác đúng số 1",
+            "acceptedItemId": "op-doc"
+          },
+          {
+            "id": "target-correct-2",
+            "label": "Thao tác đúng số 2",
+            "acceptedItemId": "op-vach0"
+          },
+          {
+            "id": "target-wrong-1",
+            "label": "Thao tác sai số 1",
+            "acceptedItemId": "op-nghieng"
+          },
+          {
+            "id": "target-wrong-2",
+            "label": "Thao tác sai số 2",
+            "acceptedItemId": "op-uocluong"
+          }
+        ],
+        "hint": "Đặt thước thẳng dọc theo vật và vạch 0 trùng đầu là ĐÚNG. Nhìn nghiêng và ghi bừa không theo ĐCNN là SAI.",
+        "explanation": "Tuân thủ các thao tác đo chuẩn giúp triệt tiêu sai số chủ quan do người thực hiện gây ra.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH4-Q1",
+        "stageId": 4,
+        "questionNumber": 1,
+        "content": "Ghép nối các giá trị chiều dài ở cột bên trái với giá trị chuyển đổi tương đương ở cột bên phải:",
+        "interactionType": "drag-drop",
+        "dragItems": [
+          {
+            "id": "val-250cm",
+            "text": "250 cm",
+            "icon": "📏"
+          },
+          {
+            "id": "val-45cm",
+            "text": "4,5 cm",
+            "icon": "📐"
+          },
+          {
+            "id": "val-1200m",
+            "text": "1 200 m",
+            "icon": "🚀"
+          },
+          {
+            "id": "val-35m",
+            "text": "3,5 m",
+            "icon": "🛰️"
+          }
+        ],
+        "dropTargets": [
+          {
+            "id": "target-25m",
+            "label": "Giá trị tương đương của 2,5 m",
+            "acceptedItemId": "val-250cm"
+          },
+          {
+            "id": "target-45mm",
+            "label": "Giá trị tương đương của 45 mm",
+            "acceptedItemId": "val-45cm"
+          },
+          {
+            "id": "target-12km",
+            "label": "Giá trị tương đương của 1,2 km",
+            "acceptedItemId": "val-1200m"
+          },
+          {
+            "id": "target-35dm",
+            "label": "Giá trị tương đương của 35 dm",
+            "acceptedItemId": "val-35m"
+          }
+        ],
+        "hint": "2,5 m = 2,5 × 100 cm; 45 mm = 45 : 10 cm; 1,2 km = 1,2 × 1000 m; 35 dm = 35 : 10 m.",
+        "explanation": "Quy đổi: 2,5 m = 250 cm ; 45 mm = 4,5 cm ; 1,2 km = 1.200 m ; 35 dm = 3,5 m.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH4-Q2",
+        "stageId": 4,
+        "questionNumber": 2,
+        "content": "Một thanh nhiên liệu tên lửa bị đặt lệch: đầu trái nằm ở vạch 2,0 cm, đầu phải nằm ở vạch 7,4 cm trên thước (ĐCNN 1 mm). Chiều dài thực tế của thanh là bao nhiêu?",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-measure-offset",
+          "rulerLengthCm": 10,
+          "dcnnMm": 1,
+          "objectStartCm": 2,
+          "objectEndCm": 7.4,
+          "objectName": "Thanh nhiên liệu tên lửa"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "7,4 cm"
+          },
+          {
+            "key": "B",
+            "text": "5,4 cm"
+          },
+          {
+            "key": "C",
+            "text": "9,4 cm"
+          },
+          {
+            "key": "D",
+            "text": "5,0 cm"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Khi đầu vật không bắt đầu từ số 0, chiều dài = (Số đo ở đầu cuối) - (Số đo ở đầu đầu).",
+        "explanation": "Chiều dài thực tế = 7,4 cm - 2,0 cm = 5,4 cm. Đây là kỹ năng đo khi đầu thước bị sứt mẻ hoặc vật bị đặt lệch.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH4-Q3",
+        "stageId": 4,
+        "questionNumber": 3,
+        "content": "Tình huống thực tế: Để đo bề dày của 1 tờ giấy trong cuốn sách KHTN 6 (bề dày quá mỏng, nhỏ hơn 0,1 mm và không thể đo trực tiếp bằng thước kẻ thông thường), cách làm nào thông minh và chính xác nhất?",
+        "interactionType": "multiple-choice",
+        "options": [
+          {
+            "key": "A",
+            "text": "Dùng kính lúp soi rồi ước lượng phỏng đoán bằng mắt"
+          },
+          {
+            "key": "B",
+            "text": "Đo bề dày của một tập gồm 100 trang sách (không kể bìa) rồi lấy kết quả chia cho 100"
+          },
+          {
+            "key": "C",
+            "text": "Dùng thước dây cuộn tròn tờ giấy lại rồi đo đường kính"
+          },
+          {
+            "key": "D",
+            "text": "Đặt chồng 10 chiếc thước kẻ lên tờ giấy rồi trừ đi"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Phương pháp đo gián tiếp bội số: Đo kích thước của N vật thể giống hệt nhau rồi chia đều cho N.",
+        "explanation": "Phương pháp chia trung bình tập hợp: Lấy độ dày của 100 trang sách chia cho 100 sẽ cho kết quả bề dày của 1 trang với độ chính xác cao vượt bậc so với đo trực tiếp.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH5-Q1",
+        "stageId": 5,
+        "questionNumber": 1,
+        "content": "Một học sinh dùng thước có ĐCNN là 0,1 cm để đo chiều rộng cuốn sổ tay khoa học. Trong các cách ghi kết quả dưới đây, cách nào là đúng quy ước khoa học?",
+        "interactionType": "multiple-choice",
+        "options": [
+          {
+            "key": "A",
+            "text": "18,5 cm"
+          },
+          {
+            "key": "B",
+            "text": "18,53 cm"
+          },
+          {
+            "key": "C",
+            "text": "18,534 cm"
+          },
+          {
+            "key": "D",
+            "text": "18 cm"
+          }
+        ],
+        "correctAnswer": "A",
+        "hint": "Quy tắc ghi kết quả: Chữ số thập phân cuối cùng phải cùng hàng với Độ chia nhỏ nhất của thước (ở đây ĐCNN là 0,1 cm - có 1 chữ số thập phân).",
+        "explanation": "Khi ĐCNN là 0,1 cm, kết quả đo bắt buộc phải được ghi đến hàng thập phân thứ nhất (0,1 cm). Do đó 18,5 cm là cách ghi đúng chuẩn.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH5-Q2",
+        "stageId": 5,
+        "questionNumber": 2,
+        "content": "Em hãy sắp xếp đúng thứ tự quy trình 5 bước đo chiều dài tiêu chuẩn của một nhà khoa học:",
+        "interactionType": "drag-drop",
+        "dragItems": [
+          {
+            "id": "step-est",
+            "text": "Ước lượng chiều dài cần đo",
+            "icon": "1️⃣"
+          },
+          {
+            "id": "step-choose",
+            "text": "Chọn thước có GHĐ và ĐCNN phù hợp",
+            "icon": "2️⃣"
+          },
+          {
+            "id": "step-place",
+            "text": "Đặt thước dọc theo chiều dài, vạch 0 trùng 1 đầu",
+            "icon": "3️⃣"
+          },
+          {
+            "id": "step-eye",
+            "text": "Đặt mắt nhìn vuông góc với cạnh thước tại đầu kia",
+            "icon": "4️⃣"
+          },
+          {
+            "id": "step-read",
+            "text": "Đọc và ghi kết quả theo vạch chia gần nhất",
+            "icon": "5️⃣"
+          }
+        ],
+        "dropTargets": [
+          {
+            "id": "target-step-1",
+            "label": "Bước 1",
+            "acceptedItemId": "step-est"
+          },
+          {
+            "id": "target-step-2",
+            "label": "Bước 2",
+            "acceptedItemId": "step-choose"
+          },
+          {
+            "id": "target-step-3",
+            "label": "Bước 3",
+            "acceptedItemId": "step-place"
+          },
+          {
+            "id": "target-step-4",
+            "label": "Bước 4",
+            "acceptedItemId": "step-eye"
+          },
+          {
+            "id": "target-step-5",
+            "label": "Bước 5",
+            "acceptedItemId": "step-read"
+          }
+        ],
+        "hint": "Trình tự: Ước lượng -> Chọn thước -> Đặt thước -> Đặt mắt -> Đọc và ghi kết quả.",
+        "explanation": "Đây là quy trình chuẩn 5 bước đo chiều dài trong chương trình KHTN 6 giúp mọi phép đo đạt độ chính xác tối ưu.",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      },
+      {
+        "id": "CH5-Q3",
+        "stageId": 5,
+        "questionNumber": 3,
+        "content": "CÂU ĐỐ KHO BÁU: Để mở khóa chiếc rương chứa Cây Thước Vàng, hãy dùng cây thước kỹ thuật SVG bên dưới đo chính xác chiều dài chiếc chìa khóa vàng bí mật:",
+        "interactionType": "multiple-choice",
+        "illustration": {
+          "type": "ruler-golden-key",
+          "rulerLengthCm": 10,
+          "dcnnMm": 1,
+          "objectStartCm": 0,
+          "objectEndCm": 8.5,
+          "objectName": "Chìa khóa vàng bí mật"
+        },
+        "options": [
+          {
+            "key": "A",
+            "text": "8,0 cm (80 mm)"
+          },
+          {
+            "key": "B",
+            "text": "8,5 cm (85 mm)"
+          },
+          {
+            "key": "C",
+            "text": "9,0 cm (90 mm)"
+          },
+          {
+            "key": "D",
+            "text": "8,2 cm (82 mm)"
+          }
+        ],
+        "correctAnswer": "B",
+        "hint": "Mũi chìa khóa đặt tại vạch số 0, cán chìa khóa chạm chính xác vào vạch 8,5 cm (vạch chia giữa số 8 và 9).",
+        "explanation": "Chúc mừng nhà khoa học nhí! Chiều dài chìa khóa chính xác là 8,5 cm (85 mm), rương báu mở ra mang theo Cây Thước Vàng Danh Dự!",
+        "pointsFirstTry": 10,
+        "pointsRetry": 5
+      }
+    ]
+  }
+}
